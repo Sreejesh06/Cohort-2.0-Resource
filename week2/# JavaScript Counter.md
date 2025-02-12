@@ -31,6 +31,19 @@ This is an arrow function that increments the `counter` variable by 1 (`counter+
 
 This simple example demonstrates the use of variables, the `setInterval` function, and arrow functions in JavaScript.
 
+## Flowchart
+
+Below is a flowchart to visualize the logic of the JavaScript counter:
+
+```mermaid
+graph TD;
+    A[Start] --> B[Initialize counter to 0]
+    B --> C[Set interval to 1 second]
+    C --> D[Increment counter by 1]
+    D --> E[Log counter value to console]
+    E --> C
+```
+
 ### Difference between `setInterval` and `setTimeout`
 
 - **`setInterval`**: This function repeatedly calls a function or executes a code snippet, with a fixed time delay between each call. It continues to execute until it is explicitly stopped using `clearInterval`.
